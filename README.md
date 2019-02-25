@@ -15,7 +15,7 @@ or [VisualStudio Code](https://code.visualstudio.com/download) (I use)
 ### Installing
 
 ```
-git clone https://github.com/facebook/react.git
+git clone https://github.com/Lindwen/LindwenBIO.git
 ```
 
 ## Built With
