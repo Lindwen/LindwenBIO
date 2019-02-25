@@ -22,7 +22,7 @@ git clone https://github.com/facebook/react.git
 
 * [HTML] (https://developer.mozilla.org/fr/docs/Web/HTML) - Frontend
 * [CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - Frontend
-* [PHP](http://php.net/docs.php) - Backend
+* [PHP] (http://php.net/docs.php) - Backend
 
 ## Authors
 
