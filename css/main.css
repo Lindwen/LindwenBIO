@@ -1,0 +1,166 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.langage ul li {
+	display: inline;
+}
+.langage ul li a img {
+	width: 50px;
+	margin-left: 10px;
+}
+.langage ul li a {
+	opacity: 0.7;
+}
+.langage ul li a:hover {
+	opacity: 1;
+}
+#active a {
+	opacity: 1;
+}
+
+
+
+.profil img {
+	border-radius: 50%;
+	display: block;
+	width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.profil img:hover {
+  	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  	transform: translate3d(0, 0, 0);
+  	backface-visibility: hidden;
+ 	perspective: 1000px;
+}	
+@keyframes shake {
+  	10%, 90% {
+   		transform: translate3d(-1px, 0, 0);
+  	}
+  	20%, 80% {
+    	transform: translate3d(2px, 0, 0);
+  	}
+  	30%, 50%, 70% {
+    	transform: translate3d(-4px, 0, 0);
+  	}
+  	40%, 60% {
+    	transform: translate3d(4px, 0, 0);
+  	}
+}
+
+
+
+.intro {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.intro h1 {
+	color: #ffffff;
+	font-size: 3em;
+	line-height: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.intro p {
+	color: #ffffff;
+	line-height: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.intro hr {
+	border : 0;
+	height: 2px;
+	width: 1000px;;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0)); 
+}
+
+
+
+.main {
+	background-color: rgba(255, 255, 255, 0.90);
+	max-width: 1000px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 12px #555;
+}
+.main:hover {
+	box-shadow: 0 0 30px #fff;
+}
+.content h1 {
+	text-align: center;
+	color: #424242;
+	padding: 10px;
+	padding-top: 40px;
+	font-weight: bold;
+}
+.content p {
+	color: #424242;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 0 2em 0;
+	font-size: 19px;
+}
+.main img {
+	padding-bottom: 30px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 2s;
+}
+.main img:hover {
+	transform: rotate(1080deg);
+}
+	
+
+
+.reseaux img {
+  	height: 40px;
+  	width: 40px;
+  	position: relative;
+	top: 0;
+	border-radius: 5px;
+	transition: all 0.3s ease-in;
+	opacity: 0.50;
+}
+.reseaux {
+	margin-top: 50px;
+  	text-align: center;
+  	margin-bottom: 40px;
+}
+.reseaux a {
+  	margin-right: 10px;
+  	margin-left: 10px;
+}
+.reseaux img:hover,
+.reseaux img:focus {
+	opacity: 1;
+}
+
+
+
+.copyright {
+	margin-bottom: 70px;
+}
+.copyright h1 {
+	text-align: center;
+	font-size: 17px;
+	opacity: 0.70;
+	color: white;
+}
+.copyright a {
+	text-decoration: none;
+	color: white;
+}
+.copyright a:hover {
+	text-decoration: underline;
+}
